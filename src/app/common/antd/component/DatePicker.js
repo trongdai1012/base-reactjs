@@ -7,7 +7,7 @@ const DatePickerAntd = (props) => {
     return <DatePicker
         format={props.format}
         showTime={props.showTime}
-        className={props.className}
+        className={`${props.className}`}
         onChange={props.onChange}
         defaultValue={props.defaultValue}
         value={props.value}
