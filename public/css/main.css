@@ -1,0 +1,93 @@
+.textUpper { text-transform: uppercase; }
+
+.textTranInherit { text-transform: inherit !important; }
+
+.textAlignLeft { text-align: left !important; }
+
+.imgMaxWidth { max-width: 100%; height: auto; border: none; display: inline-block; }
+
+.fontBold { font-weight: bold; }
+
+.borderNone { border: none; }
+
+.margin0 { margin: 0; }
+
+.cursor { cursor: pointer; }
+
+.relative { position: relative; }
+
+.limitWord { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.resizeNone { resize: none; }
+
+.marginB10 { margin-bottom: 10px; }
+
+.marginB20 { margin-bottom: 20px; }
+
+.name-package { border: 1px dashed #666; text-align: center; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; }
+
+.list-bank-transfer { padding: 20px 0; border-bottom: 1px solid #ccc; margin-bottom: 10px; }
+
+.list-bank-transfer .img { width: 150px; }
+
+.list-bank-transfer .info { margin-left: 170px; }
+
+.last { border-bottom: none; }
+
+.panel-title { position: relative; }
+
+.panel-title[aria-expanded="true"] { color: #3c763d; }
+
+.panel-title[aria-expanded="true"]:before { content: "\f058"; position: absolute; top: -7px; right: 0; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 30px; }
+
+.container {background-color: #FFF;margin: 10px auto;}
+.container .row {padding: 0px 20px 10px 20px;}
+.container .row form .text-right button{padding: 15px 50px;font-size: 20px;font-weight: bold;text-transform: uppercase;}
+.container .row .panel-heading{padding: 15px;}
+.container .row .panel-title{font-size: 18px;}
+.pack-info{border: 2px dashed #2273c5;color: #a60404;font-weight: bold;}
+.pack-info h4{color: #fe0000;}
+.skystudio-feature ul {list-style-type:none; padding-left:15px;}
+.skystudio-feature ul li h4{line-height: 25px;}
+.support-info{margin-top: 30px}
+.support-info .pack-info{ margin-right: 30px;}
+
+.checkbox label.paddingL0 { padding-left: 0; }
+.checkbox label:after { content: ''; display: table; clear: both; }
+.checkbox .cr { position: relative; display: inline-block; border: 1px solid #a9a9a9; border-radius: .25em; width: 1.3em; height: 1.3em; float: left; margin-right: .5em; }
+.checkbox .cr .cr-icon { position: absolute; font-size: .8em; line-height: 0; top: 50%; left: 12%; }
+.input-group-fix .form-control { height: 33px; }
+.checkbox label input[type="checkbox"] { display: none; }
+.checkbox label input[type="checkbox"] + .cr > .cr-icon { opacity: 0; }
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon { opacity: 1; }
+.checkbox label input[type="checkbox"]:disabled + .cr { opacity: .5; }
+
+.hide-text {
+    display: none;
+}
+.payment-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(216,217,218,0.4);
+    display: none;
+}
+.tableS{
+        display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tableCellS{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.payment-total{border: 1px solid #ff1900; padding: 10px;margin-bottom: 15px;color: #222;}
+.payment-total .info .total-pay{font-weight: bold;color: #f00;font-size: 20px;}
+.reg-trial{font-size: 16px;text-transform: uppercase;font-weight: bold;}
+
+

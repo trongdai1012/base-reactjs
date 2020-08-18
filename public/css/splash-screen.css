@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#splash-screen {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f3f8;
+}
+
+#splash-screen img {
+  margin-left: calc(100vw - 100%);
+  margin-bottom: 30px;
+}
+
+#splash-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  margin-left: calc(100vw - 100%);
+  width: 50px;
+  height: 50px;
+}
+
+.spinner .path {
+  stroke: #5d78ff;
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+.MuiTableRow-root {
+  color: inherit;
+  display: table-row;
+  outline: 0;
+  vertical-align: middle;
+  border-bottom: 1px solid #e2e2e2;
+}
+.image-event {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  padding-bottom: 70% !important;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  margin: 20px 0;
+}
+.image-event img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0px;
+  transform: translate(0px, -50%);
+}
+.event-list a.label.label-primary {
+  color: #7769ed;
+  font-size: 13px;
+}
+.event-list button.label.label-danger.bg-pink {
+  border: none;
+  background: none;
+  color: red;
+  font-size: 13px;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
