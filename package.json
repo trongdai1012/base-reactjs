@@ -42,7 +42,7 @@
     "@material-ui/styles": "^4.6.0",
     "@tanem/svg-injector": "^8.0.35",
     "@tinymce/tinymce-react": "^3.6.0",
-    "antd": "^4.2.4",
+    "antd": "^4.5.4",
     "apexcharts": "^3.19.3",
     "aws-s3": "^2.0.5",
     "aws-sdk": "^2.679.0",
